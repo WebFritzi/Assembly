@@ -80,15 +80,6 @@ SP_Mouse1 = (Mousepointer1Addr - VIC_BANK)/64
 SP_MenuItemHighliter = (MenuItemHighliterAddr - VIC_BANK)/64
 SP_Separator = (SeparatorAddr - VIC_BANK)/64
 
-
-!zone BASIC_stub
-;*=$0801
-;;** BASIC-Zeile: 0 SYS19968
-; !word main-2, 0
-; !byte $9e ; SYS
-; !text "19968"
-; !byte $00,$00,$00
-
 !zone VIC
 ; Character set
 *=$4000         
