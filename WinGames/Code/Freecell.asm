@@ -1,5 +1,5 @@
 !to "FREECELL.d64",d64
-;!to "freecell.prg",cbm
+
 !zone Constants
 VIC_BANK = $4000
 SCRMEM = $4800
